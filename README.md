@@ -147,5 +147,3 @@ Bundled sidecar binaries are from open-source projects under MIT license:
 ## Credits
 
 Help : support@franiumsoftwares.com
-
-© Franium Softwares 2026
