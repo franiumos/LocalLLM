@@ -144,6 +144,6 @@ Bundled sidecar binaries are from open-source projects under MIT license:
 [llama.cpp](https://github.com/ggml-org/llama.cpp) — MIT License
 [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) — MIT License
 
-## Credits
+## Help & Requests
 
 Help : support@franiumsoftwares.com
