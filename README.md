@@ -9,6 +9,8 @@ Built with [Tauri 2](https://v2.tauri.app/) (Rust backend) + React 19 + TypeScri
 ![Platform](https://img.shields.io/badge/platform-Windows%20x64-lightgrey)
 ![Linux](https://img.shields.io/badge/Linux-coming%20soon-orange)
 
+**I HEAVILY RECOMMEND OPENING GUIDE.PDF FROM THE REPO TO LEARN MORE ABOUT LOCAL LLM, LEARN HOW TO INSTALL IT AND USE IT**
+
 ## Features
 
 **Chat** Conversational interface with streaming responses, context management, and conversation history
