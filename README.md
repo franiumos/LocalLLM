@@ -11,13 +11,13 @@ Built with [Tauri 2](https://v2.tauri.app/) (Rust backend) + React 19 + TypeScri
 
 ## Features
 
-**Chat** — Conversational interface with streaming responses, context management, and conversation history
-**Code Mode** — Agent-powered coding assistant with tool execution (file read/write, shell commands)
-**Image Generation** — Generate images locally using Stable Diffusion models (SD 3.5, SDXL, FLUX)
-**Model Library** — Curated catalog of 50+ models (Llama, Gemma, Qwen, Mistral, DeepSeek, Phi, and more)
-**Model Advisor** — "Find My Model" wizard that scans your hardware and recommends the best model for your use case
-**Smart Loading** — Load models into RAM, VRAM, or both with a GPU layers slider
-**Two Themes** — Classic dark/light + Aero Glass variant for FraniumOS
+**Chat** Conversational interface with streaming responses, context management, and conversation history
+**Code Mode** Agent-powered coding assistant with tool execution (file read/write, shell commands)
+**Image Generation** Generate images locally using Stable Diffusion models (SD 3.5, SDXL, FLUX)
+**Model Library** Curated catalog of 50+ models (Llama, Gemma, Qwen, Mistral, DeepSeek, Phi, and more)
+**Model Advisor** "Find My Model" wizard that scans your hardware and recommends the best model for your use case
+**Smart Loading** Load models into RAM, VRAM, or both with a GPU layers slider
+**Two Themes** Classic dark/light + Aero Glass variant for FraniumOS
 
 ## Installation
 
