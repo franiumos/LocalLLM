@@ -1,0 +1,81 @@
+name: Build & Sign Release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  build-windows:
+    name: Build Windows Installer
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Rust cache
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Download sidecar binaries
+        run: powershell -ExecutionPolicy Bypass -File scripts/download-binaries.ps1
+
+      - name: Build Tauri app (Classic)
+        run: npm run tauri build
+        env:
+          VITE_APP_VARIANT: classic
+
+      - name: Upload unsigned installer
+        uses: actions/upload-artifact@v4
+        id: upload-unsigned
+        with:
+          name: unsigned-installer
+          path: src-tauri/target/release/bundle/nsis/*-setup.exe
+          retention-days: 7
+
+      # ──────────────────────────────────────────────────────────
+      # SignPath code signing (uncomment after SignPath approval)
+      # ──────────────────────────────────────────────────────────
+      # - name: Sign with SignPath
+      #   uses: signpath/github-action-submit-signing-request@v1
+      #   with:
+      #     api-token: '${{ secrets.SIGNPATH_API_TOKEN }}'
+      #     organization-id: '${{ secrets.SIGNPATH_ORG_ID }}'
+      #     project-slug: 'localllm'
+      #     signing-policy-slug: 'release-signing'
+      #     github-artifact-id: '${{ steps.upload-unsigned.outputs.artifact-id }}'
+      #     wait-for-completion: true
+      #     output-artifact-directory: './signed'
+      #
+      # - name: Create release with signed installer
+      #   uses: softprops/action-gh-release@v2
+      #   if: startsWith(github.ref, 'refs/tags/')
+      #   with:
+      #     files: ./signed/*-setup.exe
+      #     generate_release_notes: true
+
+      # Unsigned release (remove this block after enabling SignPath above)
+      - name: Create release with installer
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: src-tauri/target/release/bundle/nsis/*-setup.exe
+          generate_release_notes: true
