@@ -9,17 +9,16 @@ Built with [Tauri 2](https://v2.tauri.app/) (Rust backend) + React 19 + TypeScri
 ![Platform](https://img.shields.io/badge/platform-Windows%20x64-lightgrey)
 ![Linux](https://img.shields.io/badge/Linux-coming%20soon-orange)
 
-**I HEAVILY RECOMMEND OPENING GUIDE.PDF FROM THE REPO TO LEARN MORE ABOUT LOCAL LLM, LEARN HOW TO INSTALL IT AND USE IT**
+**I HEAVILY RECOMMEND OPENING GUIDE.PDF FROM THE REPO TO LEARN MORE ABOUT LOCAL LLM, LEARN HOW TO INSTALL IT AND USE IT, IT IS MUCH SIMPLER THAN THE TUTORIAL BELOW**
 
 ## Features
 
-**Chat** Conversational interface with streaming responses, context management, and conversation history
-**Code Mode** Agent-powered coding assistant with tool execution (file read/write, shell commands)
-**Image Generation** Generate images locally using Stable Diffusion models (SD 3.5, SDXL, FLUX)
-**Model Library** Curated catalog of 50+ models (Llama, Gemma, Qwen, Mistral, DeepSeek, Phi, and more)
-**Model Advisor** "Find My Model" wizard that scans your hardware and recommends the best model for your use case
-**Smart Loading** Load models into RAM, VRAM, or both with a GPU layers slider
-**Two Themes** Classic dark/light + Aero Glass variant for FraniumOS
+- Chat system
+- Code agent that reads and creates files for you
+- Image generation tool "Pixara" that uses LLMs to generate pictures
+- Model Library with 50+ available LLMs of all kind (lightweight models, code specialized models, ...).
+- Model Advisor : system that helps you find the best model for your hardware and use case
+- Load models in RAM, VRAM or both
 
 ## Installation
 
