@@ -136,10 +136,6 @@ The built-in catalog includes 50+ models across these categories:
 
 Models are downloaded on demand from HuggingFace in GGUF format to `~/.localllm/models/`.
 
-## Code Signing
-
-Release installers are digitally signed via [SignPath Foundation](https://signpath.org/) to ensure authenticity. See our [Code Signing Policy](CODE_SIGNING.md) for details.
-
 ## License
 
 MIT See [LICENSE](LICENSE) for details.
