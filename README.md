@@ -1,6 +1,6 @@
 # LocalLLM
 
-A desktop application for running large language models and image generation locally on your PC. No cloud, no API keys, no internet required — everything runs on your hardware.
+A desktop application for running large & small language models and image generation locally on your PC.
 
 Built with [Tauri 2](https://v2.tauri.app/) (Rust backend) + React 19 + TypeScript.
 
@@ -11,30 +11,30 @@ Built with [Tauri 2](https://v2.tauri.app/) (Rust backend) + React 19 + TypeScri
 
 ## Features
 
-- **Chat** — Conversational interface with streaming responses, context management, and conversation history
-- **Code Mode** — Agent-powered coding assistant with tool execution (file read/write, shell commands)
-- **Image Generation** — Generate images locally using Stable Diffusion models (SD 3.5, SDXL, FLUX)
-- **Model Library** — Curated catalog of 50+ models (Llama, Gemma, Qwen, Mistral, DeepSeek, Phi, and more)
-- **Model Advisor** — "Find My Model" wizard that scans your hardware and recommends the best model for your use case
-- **Smart Loading** — Load models into RAM, VRAM, or both with a GPU layers slider
-- **Two Themes** — Classic dark/light + Aero Glass variant for FraniumOS
+**Chat** — Conversational interface with streaming responses, context management, and conversation history
+**Code Mode** — Agent-powered coding assistant with tool execution (file read/write, shell commands)
+**Image Generation** — Generate images locally using Stable Diffusion models (SD 3.5, SDXL, FLUX)
+**Model Library** — Curated catalog of 50+ models (Llama, Gemma, Qwen, Mistral, DeepSeek, Phi, and more)
+**Model Advisor** — "Find My Model" wizard that scans your hardware and recommends the best model for your use case
+**Smart Loading** — Load models into RAM, VRAM, or both with a GPU layers slider
+**Two Themes** — Classic dark/light + Aero Glass variant for FraniumOS
 
 ## Installation
 
 ### For Users
 
-Download the latest installer from the [Releases](https://github.com/franiumos/LocalLLM/releases) page and run it. No prerequisites needed — everything is bundled.
+Download the latest installer from the [Releases](https://github.com/franiumos/LocalLLM/releases) page and run it. No prerequisites needed everything is bundled.
 
-- **GPU** (optional but recommended) — Vulkan-capable GPU for accelerated inference
+**GPU** (optional but recommended) Vulkan-capable GPU for accelerated inference
 
-> 🐧 **Linux support is coming soon!** A `.deb` and `.AppImage` build is in progress.
+> **Linux support is coming soon!** A `.deb` and `.AppImage` build is in progress.
 
 ### For Developers
 
 To build from source, you need:
 
-- **Node.js** 18+ and npm
-- **Rust** toolchain (install via [rustup](https://rustup.rs/))
+**Node.js** 18+ and npm
+**Rust** toolchain (install via [rustup](https://rustup.rs/))
 
 ## Quick Start (Development)
 
@@ -137,11 +137,11 @@ Models are downloaded on demand from HuggingFace in GGUF format to `~/.localllm/
 
 ## License
 
-MIT — See [LICENSE](LICENSE) for details.
+MIT See [LICENSE](LICENSE) for details.
 
 Bundled sidecar binaries are from open-source projects under MIT license:
-- [llama.cpp](https://github.com/ggml-org/llama.cpp) — MIT License
-- [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) — MIT License
+[llama.cpp](https://github.com/ggml-org/llama.cpp) — MIT License
+[stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) — MIT License
 
 ## Credits
 
