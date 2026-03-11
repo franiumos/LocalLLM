@@ -78,7 +78,7 @@ stable-diffusion.dll
 # Build the Classic installer
 npm run build:classic
 
-# Build the Aero (FraniumOS) installer
+# Build the "Aero" style installer
 npm run build:aero
 
 # Build both variants
