@@ -1,0 +1,1654 @@
+[
+  {
+    "id": "llama-3.2-3b",
+    "name": "Llama 3.2 3B Instruct",
+    "author": "Meta",
+    "repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+    "description": "Compact and fast model from Meta, great for general chat and instruction following. Runs well on low-end hardware.",
+    "parameters": "3B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+    "files": [
+      {
+        "filename": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "size_gb": 2,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Llama-3.2-3B-Instruct-Q5_K_M.gguf",
+        "size_gb": 2.4,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Llama-3.2-3B-Instruct-Q8_0.gguf",
+        "size_gb": 3.4,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "llama-3.1-8b",
+    "name": "Llama 3.1 8B Instruct",
+    "author": "Meta",
+    "repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+    "description": "Excellent general-purpose model with strong instruction following. Good balance of capability and speed for everyday tasks.",
+    "parameters": "8B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "files": [
+      {
+        "filename": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+        "size_gb": 4.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf",
+        "size_gb": 5.7,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Meta-Llama-3.1-8B-Instruct-Q8_0.gguf",
+        "size_gb": 8.5,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 8
+  },
+  {
+    "id": "mistral-7b",
+    "name": "Mistral 7B Instruct v0.3",
+    "author": "Mistral AI",
+    "repo": "bartowski/Mistral-7B-Instruct-v0.3-GGUF",
+    "description": "Fast and capable instruction-tuned model from Mistral AI. Known for strong performance relative to its size.",
+    "parameters": "7B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+    "files": [
+      {
+        "filename": "Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+        "size_gb": 4.4,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Mistral-7B-Instruct-v0.3-Q5_K_M.gguf",
+        "size_gb": 5.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Mistral-7B-Instruct-v0.3-Q8_0.gguf",
+        "size_gb": 7.7,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "mistral-nemo-12b",
+    "name": "Mistral Nemo 12B Instruct",
+    "author": "Mistral AI",
+    "repo": "bartowski/Mistral-Nemo-Instruct-2407-GGUF",
+    "description": "Larger Mistral model with improved reasoning and instruction following. Great for complex conversations and tasks.",
+    "parameters": "12B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407",
+    "files": [
+      {
+        "filename": "Mistral-Nemo-Instruct-2407-Q4_K_M.gguf",
+        "size_gb": 7.5,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Mistral-Nemo-Instruct-2407-Q5_K_M.gguf",
+        "size_gb": 8.6,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Mistral-Nemo-Instruct-2407-Q8_0.gguf",
+        "size_gb": 13,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "qwen-2.5-7b",
+    "name": "Qwen 2.5 7B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-7B-Instruct-GGUF",
+    "description": "Strong multilingual model with excellent coding and reasoning capabilities. Supports 29+ languages including Chinese, English, and more.",
+    "parameters": "7B",
+    "category": "multilingual",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-7B-Instruct-Q4_K_M.gguf",
+        "size_gb": 4.7,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-7B-Instruct-Q5_K_M.gguf",
+        "size_gb": 5.4,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2.5-7B-Instruct-Q8_0.gguf",
+        "size_gb": 8.1,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "gemma-2-9b",
+    "name": "Gemma 2 9B Instruct",
+    "author": "Google",
+    "repo": "bartowski/gemma-2-9b-it-GGUF",
+    "description": "Google's instruction-tuned model with strong performance across many benchmarks. Excellent at summarization and question answering.",
+    "parameters": "9B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/google/gemma-2-9b-it",
+    "files": [
+      {
+        "filename": "gemma-2-9b-it-Q4_K_M.gguf",
+        "size_gb": 5.8,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "gemma-2-9b-it-Q5_K_M.gguf",
+        "size_gb": 6.7,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "gemma-2-9b-it-Q8_0.gguf",
+        "size_gb": 10.1,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "gemma-2-2b",
+    "name": "Gemma 2 2B Instruct",
+    "author": "Google",
+    "repo": "bartowski/gemma-2-2b-it-GGUF",
+    "description": "Ultra-lightweight model from Google. Fast responses on any hardware, ideal for simple tasks and quick interactions.",
+    "parameters": "2B",
+    "category": "lightweight",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/google/gemma-2-2b-it",
+    "files": [
+      {
+        "filename": "gemma-2-2b-it-Q4_K_M.gguf",
+        "size_gb": 1.6,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "gemma-2-2b-it-Q5_K_M.gguf",
+        "size_gb": 1.9,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "gemma-2-2b-it-Q8_0.gguf",
+        "size_gb": 2.8,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 5
+  },
+  {
+    "id": "deepseek-r1-7b",
+    "name": "DeepSeek R1 Distill Qwen 7B",
+    "author": "DeepSeek",
+    "repo": "bartowski/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+    "description": "Reasoning-focused model distilled from DeepSeek R1. Shows its chain-of-thought process for math, logic, and problem-solving tasks.",
+    "parameters": "7B",
+    "category": "reasoning",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "files": [
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf",
+        "size_gb": 4.7,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-7B-Q5_K_M.gguf",
+        "size_gb": 5.4,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-7B-Q8_0.gguf",
+        "size_gb": 8.1,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "deepseek-r1-14b",
+    "name": "DeepSeek R1 Distill Qwen 14B",
+    "author": "DeepSeek",
+    "repo": "bartowski/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+    "description": "Larger reasoning model from DeepSeek R1. Stronger analytical capabilities for complex math, science, and multi-step problems.",
+    "parameters": "14B",
+    "category": "reasoning",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "files": [
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-14B-Q4_K_M.gguf",
+        "size_gb": 8.7,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-14B-Q5_K_M.gguf",
+        "size_gb": 10.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-14B-Q8_0.gguf",
+        "size_gb": 15.7,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 8
+  },
+  {
+    "id": "phi-4-mini",
+    "name": "Phi-4 Mini Instruct",
+    "author": "Microsoft",
+    "repo": "bartowski/microsoft_Phi-4-mini-instruct-GGUF",
+    "description": "Compact yet powerful model from Microsoft. Excels at coding, math, and structured reasoning despite its small size.",
+    "parameters": "3.8B",
+    "category": "code",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/microsoft/phi-4-mini-instruct",
+    "files": [
+      {
+        "filename": "microsoft_Phi-4-mini-instruct-Q4_K_M.gguf",
+        "size_gb": 2.4,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "microsoft_Phi-4-mini-instruct-Q5_K_M.gguf",
+        "size_gb": 2.8,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "microsoft_Phi-4-mini-instruct-Q8_0.gguf",
+        "size_gb": 4.1,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "codellama-7b",
+    "name": "CodeLlama 7B Instruct",
+    "author": "Meta",
+    "repo": "TheBloke/CodeLlama-7B-Instruct-GGUF",
+    "description": "Specialized coding model from Meta. Best for code generation, completion, debugging, and explaining code across many languages.",
+    "parameters": "7B",
+    "category": "code",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf",
+    "files": [
+      {
+        "filename": "codellama-7b-instruct.Q4_K_M.gguf",
+        "size_gb": 4.1,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "codellama-7b-instruct.Q5_K_M.gguf",
+        "size_gb": 4.8,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "codellama-7b-instruct.Q8_0.gguf",
+        "size_gb": 7.2,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 6
+  },
+  {
+    "id": "deepseek-coder-v2-lite",
+    "name": "DeepSeek Coder V2 Lite Instruct",
+    "author": "DeepSeek",
+    "repo": "bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+    "description": "Lightweight coding assistant from DeepSeek. Strong at code generation, refactoring, and unit test writing with MoE architecture.",
+    "parameters": "16B (2.4B active)",
+    "category": "code",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+    "files": [
+      {
+        "filename": "DeepSeek-Coder-V2-Lite-Instruct-Q4_K_M.gguf",
+        "size_gb": 9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "DeepSeek-Coder-V2-Lite-Instruct-Q5_K_M.gguf",
+        "size_gb": 10.3,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "DeepSeek-Coder-V2-Lite-Instruct-Q8_0.gguf",
+        "size_gb": 16.7,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "starcoder2-3b",
+    "name": "StarCoder2 3B",
+    "author": "BigCode",
+    "repo": "QuantFactory/starcoder2-3b-GGUF",
+    "description": "Lightweight code completion model trained on 600+ programming languages. Fast and efficient for code suggestions and infilling.",
+    "parameters": "3B",
+    "category": "code",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/bigcode/starcoder2-3b",
+    "files": [
+      {
+        "filename": "starcoder2-3b.Q4_K_M.gguf",
+        "size_gb": 1.8,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "starcoder2-3b.Q5_K_M.gguf",
+        "size_gb": 2.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "starcoder2-3b.Q8_0.gguf",
+        "size_gb": 3.2,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 5
+  },
+  {
+    "id": "tinyllama-1.1b",
+    "name": "TinyLlama 1.1B Chat",
+    "author": "TinyLlama",
+    "repo": "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
+    "description": "One of the smallest capable chat models. Extremely fast on any hardware, perfect for testing and simple conversations.",
+    "parameters": "1.1B",
+    "category": "lightweight",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "files": [
+      {
+        "filename": "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+        "size_gb": 0.7,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf",
+        "size_gb": 0.8,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "tinyllama-1.1b-chat-v1.0.Q8_0.gguf",
+        "size_gb": 1.2,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 4
+  },
+  {
+    "id": "qwen-2.5-0.5b",
+    "name": "Qwen 2.5 0.5B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-0.5B-Instruct-GGUF",
+    "description": "Tiny but surprisingly capable model. Near-instant responses, ideal for low-resource machines and quick experiments.",
+    "parameters": "0.5B",
+    "category": "lightweight",
+    "capabilities": [],
+    "recommended_quant": "Q8_0",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-0.5B-Instruct-Q4_K_M.gguf",
+        "size_gb": 0.4,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-0.5B-Instruct-Q8_0.gguf",
+        "size_gb": 0.5,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 3
+  },
+  {
+    "id": "qwen-2.5-3b",
+    "name": "Qwen 2.5 3B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-3B-Instruct-GGUF",
+    "description": "Well-balanced lightweight model with good multilingual support. Efficient for daily chat tasks on modest hardware.",
+    "parameters": "3B",
+    "category": "lightweight",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-3B-Instruct-Q4_K_M.gguf",
+        "size_gb": 2,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-3B-Instruct-Q5_K_M.gguf",
+        "size_gb": 2.3,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2.5-3B-Instruct-Q8_0.gguf",
+        "size_gb": 3.4,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 6
+  },
+  {
+    "id": "phi-3-medium-14b",
+    "name": "Phi-3 Medium 14B Instruct",
+    "author": "Microsoft",
+    "repo": "bartowski/Phi-3-medium-128k-instruct-GGUF",
+    "description": "Microsoft's larger Phi model with 128K context window. Excels at reasoning, math, and complex instruction following.",
+    "parameters": "14B",
+    "category": "reasoning",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/microsoft/Phi-3-medium-128k-instruct",
+    "files": [
+      {
+        "filename": "Phi-3-medium-128k-instruct-Q4_K_M.gguf",
+        "size_gb": 8.6,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Phi-3-medium-128k-instruct-Q5_K_M.gguf",
+        "size_gb": 10,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Phi-3-medium-128k-instruct-Q8_0.gguf",
+        "size_gb": 15.3,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "aya-23-8b",
+    "name": "Aya 23 8B",
+    "author": "Cohere",
+    "repo": "bartowski/aya-23-8B-GGUF",
+    "description": "Multilingual model supporting 23 languages. Designed for inclusive AI access across diverse languages and cultures.",
+    "parameters": "8B",
+    "category": "multilingual",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/CohereForAI/aya-23-8B",
+    "files": [
+      {
+        "filename": "aya-23-8B-Q4_K_M.gguf",
+        "size_gb": 4.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "aya-23-8B-Q5_K_M.gguf",
+        "size_gb": 5.7,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "aya-23-8B-Q8_0.gguf",
+        "size_gb": 8.5,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 6
+  },
+  {
+    "id": "llava-1.6-7b",
+    "name": "LLaVA 1.6 Mistral 7B",
+    "author": "Haotian Liu",
+    "repo": "cjpais/llava-1.6-mistral-7b-gguf",
+    "description": "Vision-language model that can understand images and text together. Describe images, answer visual questions, and analyze visual content.",
+    "parameters": "7B",
+    "category": "vision",
+    "capabilities": [
+      "vision"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/llava-hf/llava-v1.6-mistral-7b-hf",
+    "files": [
+      {
+        "filename": "llava-v1.6-mistral-7b.Q4_K_M.gguf",
+        "size_gb": 4.4,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "llava-v1.6-mistral-7b.Q5_K_M.gguf",
+        "size_gb": 5.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "llava-v1.6-mistral-7b.Q8_0.gguf",
+        "size_gb": 7.7,
+        "quant": "Q8_0"
+      }
+    ],
+    "components": [
+      {
+        "type": "mmproj",
+        "repo": "cjpais/llava-1.6-mistral-7b-gguf",
+        "filename": "mmproj-model-f16.gguf",
+        "size_gb": 0.6
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "qwen-2.5-coder-7b",
+    "name": "Qwen 2.5 Coder 7B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-Coder-7B-Instruct-GGUF",
+    "description": "Dedicated coding model from Alibaba. Strong at code generation, explanation, and debugging with support for 90+ programming languages.",
+    "parameters": "7B",
+    "category": "code",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf",
+        "size_gb": 4.7,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-Coder-7B-Instruct-Q5_K_M.gguf",
+        "size_gb": 5.4,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2.5-Coder-7B-Instruct-Q8_0.gguf",
+        "size_gb": 8.1,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "stable-diffusion-v1-5",
+    "name": "Stable Diffusion 1.5",
+    "author": "Runway",
+    "repo": "gpustack/stable-diffusion-v1-5-GGUF",
+    "description": "Classic text-to-image generation model. Generates 512x512 images from text prompts. Fast and lightweight, great for quick experiments.",
+    "parameters": "860M",
+    "category": "image_generation",
+    "capabilities": [
+      "image_generation"
+    ],
+    "recommended_quant": "Q8_0",
+    "homepage": "https://huggingface.co/gpustack/stable-diffusion-v1-5-GGUF",
+    "files": [
+      {
+        "filename": "stable-diffusion-v1-5-Q4_0.gguf",
+        "size_gb": 0.5,
+        "quant": "Q4_0"
+      },
+      {
+        "filename": "stable-diffusion-v1-5-Q8_0.gguf",
+        "size_gb": 1,
+        "quant": "Q8_0"
+      }
+    ],
+    "defaults": {
+      "cfg_scale": 7,
+      "steps": 20,
+      "sampling_method": "euler_a",
+      "width": 512,
+      "height": 512
+    },
+    "performance_score": 5
+  },
+  {
+    "id": "sdxl-base-1-0",
+    "name": "Stable Diffusion XL 1.0",
+    "author": "Stability AI",
+    "repo": "gpustack/stable-diffusion-xl-base-1.0-GGUF",
+    "description": "High-quality text-to-image generation at 1024x1024 resolution. Significant quality improvement over SD 1.5.",
+    "parameters": "3.5B",
+    "category": "image_generation",
+    "capabilities": [
+      "image_generation"
+    ],
+    "recommended_quant": "Q8_0",
+    "homepage": "https://huggingface.co/gpustack/stable-diffusion-xl-base-1.0-GGUF",
+    "files": [
+      {
+        "filename": "stable-diffusion-xl-base-1.0-Q4_0.gguf",
+        "size_gb": 2,
+        "quant": "Q4_0"
+      },
+      {
+        "filename": "stable-diffusion-xl-base-1.0-Q8_0.gguf",
+        "size_gb": 3.5,
+        "quant": "Q8_0"
+      }
+    ],
+    "defaults": {
+      "cfg_scale": 7,
+      "steps": 20,
+      "sampling_method": "euler_a",
+      "width": 1024,
+      "height": 1024
+    },
+    "performance_score": 6
+  },
+  {
+    "id": "sd-3.5-large",
+    "name": "Stable Diffusion 3.5 Large",
+    "author": "Stability AI",
+    "repo": "city96/stable-diffusion-3.5-large-gguf",
+    "description": "High-quality text-to-image with MMDiT architecture. 1024x1024 native. Excellent at text, hands, and faces. Best with CFG 3.5, 28 steps.",
+    "parameters": "8B",
+    "category": "image_generation",
+    "capabilities": [
+      "image_generation"
+    ],
+    "recommended_quant": "Q5_0",
+    "homepage": "https://huggingface.co/city96/stable-diffusion-3.5-large-gguf",
+    "files": [
+      {
+        "filename": "sd3.5_large-Q5_0.gguf",
+        "size_gb": 5.8,
+        "quant": "Q5_0"
+      },
+      {
+        "filename": "sd3.5_large-Q8_0.gguf",
+        "size_gb": 8.8,
+        "quant": "Q8_0"
+      }
+    ],
+    "components": [
+      {
+        "type": "clip_l",
+        "repo": "Comfy-Org/stable-diffusion-3.5-fp8",
+        "filename": "text_encoders/clip_l.safetensors",
+        "size_gb": 0.25
+      },
+      {
+        "type": "clip_g",
+        "repo": "Comfy-Org/stable-diffusion-3.5-fp8",
+        "filename": "text_encoders/clip_g.safetensors",
+        "size_gb": 1.4
+      },
+      {
+        "type": "t5xxl",
+        "repo": "city96/t5-v1_1-xxl-encoder-gguf",
+        "filename": "t5-v1_1-xxl-encoder-Q8_0.gguf",
+        "size_gb": 5.1
+      }
+    ],
+    "defaults": {
+      "cfg_scale": 3.5,
+      "steps": 28,
+      "sampling_method": "euler",
+      "width": 1024,
+      "height": 1024
+    },
+    "server_flags": [
+      "--clip-on-cpu"
+    ],
+    "performance_score": 8
+  },
+  {
+    "id": "flux-1-dev",
+    "name": "FLUX.1 Dev",
+    "author": "Black Forest Labs",
+    "repo": "city96/FLUX.1-dev-gguf",
+    "description": "State-of-the-art 12B text-to-image model. Exceptional quality for lighting, hands, faces, and text rendering. Requires ~12+ GB total with encoders.",
+    "parameters": "12B",
+    "category": "image_generation",
+    "capabilities": [
+      "image_generation"
+    ],
+    "recommended_quant": "Q4_K_S",
+    "homepage": "https://huggingface.co/city96/FLUX.1-dev-gguf",
+    "files": [
+      {
+        "filename": "flux1-dev-Q4_K_S.gguf",
+        "size_gb": 6.8,
+        "quant": "Q4_K_S"
+      },
+      {
+        "filename": "flux1-dev-Q8_0.gguf",
+        "size_gb": 12.9,
+        "quant": "Q8_0"
+      }
+    ],
+    "components": [
+      {
+        "type": "vae",
+        "repo": "camenduru/FLUX.1-dev-ungated",
+        "filename": "ae.safetensors",
+        "size_gb": 0.34
+      },
+      {
+        "type": "clip_l",
+        "repo": "comfyanonymous/flux_text_encoders",
+        "filename": "clip_l.safetensors",
+        "size_gb": 0.25
+      },
+      {
+        "type": "t5xxl",
+        "repo": "city96/t5-v1_1-xxl-encoder-gguf",
+        "filename": "t5-v1_1-xxl-encoder-Q8_0.gguf",
+        "size_gb": 5.1
+      }
+    ],
+    "defaults": {
+      "cfg_scale": 1,
+      "steps": 20,
+      "sampling_method": "euler",
+      "width": 1024,
+      "height": 1024
+    },
+    "server_flags": [
+      "--diffusion-fa",
+      "--vae-on-cpu"
+    ],
+    "performance_score": 9
+  },
+  {
+    "id": "llama-3.3-70b",
+    "name": "Llama 3.3 70B Instruct",
+    "author": "Meta",
+    "repo": "bartowski/Llama-3.3-70B-Instruct-GGUF",
+    "description": "Meta's most capable open model. Top-tier instruction following, reasoning, and coding. Requires 32+ GB RAM for Q4.",
+    "parameters": "70B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+    "files": [
+      {
+        "filename": "Llama-3.3-70B-Instruct-Q4_K_M.gguf",
+        "size_gb": 42.5,
+        "quant": "Q4_K_M"
+      }
+    ],
+    "performance_score": 10
+  },
+  {
+    "id": "gemma-3-4b",
+    "name": "Gemma 3 4B Instruct",
+    "author": "Google",
+    "repo": "bartowski/google_gemma-3-4b-it-GGUF",
+    "description": "Google's latest lightweight model. Efficient and fast with 128K context, multilingual support for 140+ languages, and vision capabilities.",
+    "parameters": "4B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use",
+      "vision"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/google/gemma-3-4b-it",
+    "files": [
+      {
+        "filename": "google_gemma-3-4b-it-Q4_K_M.gguf",
+        "size_gb": 2.8,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "google_gemma-3-4b-it-Q5_K_M.gguf",
+        "size_gb": 3.2,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "google_gemma-3-4b-it-Q8_0.gguf",
+        "size_gb": 4.5,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "gemma-3-12b",
+    "name": "Gemma 3 12B Instruct",
+    "author": "Google",
+    "repo": "bartowski/google_gemma-3-12b-it-GGUF",
+    "description": "Google's mid-range latest model. Strong across benchmarks with vision support, 128K context, and excellent multilingual performance.",
+    "parameters": "12B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use",
+      "vision"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/google/gemma-3-12b-it",
+    "files": [
+      {
+        "filename": "google_gemma-3-12b-it-Q4_K_M.gguf",
+        "size_gb": 7.3,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "google_gemma-3-12b-it-Q5_K_M.gguf",
+        "size_gb": 8.5,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "google_gemma-3-12b-it-Q8_0.gguf",
+        "size_gb": 12.4,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 8
+  },
+  {
+    "id": "qwen-2.5-14b",
+    "name": "Qwen 2.5 14B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-14B-Instruct-GGUF",
+    "description": "Large general-purpose model with strong reasoning, coding, and multilingual capabilities. Excellent quality for its size.",
+    "parameters": "14B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-14B-Instruct-Q4_K_M.gguf",
+        "size_gb": 8.7,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-14B-Instruct-Q5_K_M.gguf",
+        "size_gb": 10.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2.5-14B-Instruct-Q8_0.gguf",
+        "size_gb": 15.7,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 8
+  },
+  {
+    "id": "mistral-small-24b",
+    "name": "Mistral Small 24B Instruct",
+    "author": "Mistral AI",
+    "repo": "bartowski/Mistral-Small-24B-Instruct-2501-GGUF",
+    "description": "Mistral's balanced mid-size model. Excellent instruction following with strong multilingual and reasoning performance.",
+    "parameters": "24B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+    "files": [
+      {
+        "filename": "Mistral-Small-24B-Instruct-2501-Q4_K_M.gguf",
+        "size_gb": 14.1,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Mistral-Small-24B-Instruct-2501-Q5_K_M.gguf",
+        "size_gb": 16.4,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Mistral-Small-24B-Instruct-2501-Q8_0.gguf",
+        "size_gb": 25.4,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 8
+  },
+  {
+    "id": "qwen-2.5-coder-3b",
+    "name": "Qwen 2.5 Coder 3B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-Coder-3B-Instruct-GGUF",
+    "description": "Lightweight coding model supporting 90+ programming languages. Fast enough for real-time code completion on modest hardware.",
+    "parameters": "3B",
+    "category": "code",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-Coder-3B-Instruct-Q4_K_M.gguf",
+        "size_gb": 2,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-Coder-3B-Instruct-Q5_K_M.gguf",
+        "size_gb": 2.3,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2.5-Coder-3B-Instruct-Q8_0.gguf",
+        "size_gb": 3.4,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 6
+  },
+  {
+    "id": "qwen-2.5-coder-14b",
+    "name": "Qwen 2.5 Coder 14B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-Coder-14B-Instruct-GGUF",
+    "description": "Powerful coding model with broad language support. Excels at complex refactoring, debugging, and generating production-quality code.",
+    "parameters": "14B",
+    "category": "code",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf",
+        "size_gb": 8.7,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-Coder-14B-Instruct-Q5_K_M.gguf",
+        "size_gb": 10.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2.5-Coder-14B-Instruct-Q8_0.gguf",
+        "size_gb": 15.7,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 8
+  },
+  {
+    "id": "codestral-22b",
+    "name": "Codestral 22B v0.1",
+    "author": "Mistral AI",
+    "repo": "bartowski/Codestral-22B-v0.1-GGUF",
+    "description": "Mistral's dedicated code generation model. Purpose-built for programming with strong performance across 80+ languages.",
+    "parameters": "22B",
+    "category": "code",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/mistralai/Codestral-22B-v0.1",
+    "files": [
+      {
+        "filename": "Codestral-22B-v0.1-Q4_K_M.gguf",
+        "size_gb": 12.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Codestral-22B-v0.1-Q5_K_M.gguf",
+        "size_gb": 15,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Codestral-22B-v0.1-Q8_0.gguf",
+        "size_gb": 23.2,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 9
+  },
+  {
+    "id": "deepseek-r1-1.5b",
+    "name": "DeepSeek R1 Distill Qwen 1.5B",
+    "author": "DeepSeek",
+    "repo": "bartowski/DeepSeek-R1-Distill-Qwen-1.5B-GGUF",
+    "description": "Tiny reasoning model distilled from DeepSeek R1. Surprisingly capable at math and logic for its size. Runs on any hardware.",
+    "parameters": "1.5B",
+    "category": "reasoning",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "files": [
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+        "size_gb": 1.1,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-1.5B-Q5_K_M.gguf",
+        "size_gb": 1.3,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
+        "size_gb": 1.7,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 5
+  },
+  {
+    "id": "deepseek-r1-8b",
+    "name": "DeepSeek R1 Distill Llama 8B",
+    "author": "DeepSeek",
+    "repo": "bartowski/DeepSeek-R1-Distill-Llama-8B-GGUF",
+    "description": "Llama-based reasoning model distilled from DeepSeek R1. Strong chain-of-thought reasoning for math, science, and logic puzzles.",
+    "parameters": "8B",
+    "category": "reasoning",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+    "files": [
+      {
+        "filename": "DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf",
+        "size_gb": 4.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Llama-8B-Q5_K_M.gguf",
+        "size_gb": 5.7,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Llama-8B-Q8_0.gguf",
+        "size_gb": 8.5,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "deepseek-r1-32b",
+    "name": "DeepSeek R1 Distill Qwen 32B",
+    "author": "DeepSeek",
+    "repo": "bartowski/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+    "description": "Large reasoning model with near-frontier analytical capabilities. Excellent for complex multi-step problems. Requires 16+ GB RAM.",
+    "parameters": "32B",
+    "category": "reasoning",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+    "files": [
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-32B-Q4_K_M.gguf",
+        "size_gb": 19.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-32B-Q5_K_M.gguf",
+        "size_gb": 23.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "DeepSeek-R1-Distill-Qwen-32B-Q8_0.gguf",
+        "size_gb": 34.8,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 9
+  },
+  {
+    "id": "phi-4-14b",
+    "name": "Phi-4 14B",
+    "author": "Microsoft",
+    "repo": "bartowski/phi-4-GGUF",
+    "description": "Microsoft's most capable Phi model. Trained on synthetic data and academic sources, exceptional at reasoning, math, and coding.",
+    "parameters": "14B",
+    "category": "reasoning",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/microsoft/phi-4",
+    "files": [
+      {
+        "filename": "phi-4-Q4_K_M.gguf",
+        "size_gb": 9.1,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "phi-4-Q5_K_M.gguf",
+        "size_gb": 10.6,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "phi-4-Q8_0.gguf",
+        "size_gb": 15.6,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 8
+  },
+  {
+    "id": "qwq-32b",
+    "name": "QwQ 32B",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen_QwQ-32B-GGUF",
+    "description": "Alibaba's dedicated reasoning model. Specializes in mathematical reasoning, logic puzzles, and complex multi-step problem solving.",
+    "parameters": "32B",
+    "category": "reasoning",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/QwQ-32B",
+    "files": [
+      {
+        "filename": "Qwen_QwQ-32B-Q4_K_M.gguf",
+        "size_gb": 19.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen_QwQ-32B-Q5_K_M.gguf",
+        "size_gb": 23.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen_QwQ-32B-Q8_0.gguf",
+        "size_gb": 34.8,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 9
+  },
+  {
+    "id": "gemma-3-1b",
+    "name": "Gemma 3 1B Instruct",
+    "author": "Google",
+    "repo": "bartowski/google_gemma-3-1b-it-GGUF",
+    "description": "Google's tiniest latest-generation model. Ultra-fast on any hardware with support for 140+ languages and 32K context.",
+    "parameters": "1B",
+    "category": "lightweight",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/google/gemma-3-1b-it",
+    "files": [
+      {
+        "filename": "google_gemma-3-1b-it-Q4_K_M.gguf",
+        "size_gb": 0.8,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "google_gemma-3-1b-it-Q5_K_M.gguf",
+        "size_gb": 0.9,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "google_gemma-3-1b-it-Q8_0.gguf",
+        "size_gb": 1.3,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 5
+  },
+  {
+    "id": "smollm2-1.7b",
+    "name": "SmolLM2 1.7B Instruct",
+    "author": "HuggingFace",
+    "repo": "bartowski/SmolLM2-1.7B-Instruct-GGUF",
+    "description": "HuggingFace's efficient tiny model. Good at instruction following, summarization, and text rewriting despite its small size.",
+    "parameters": "1.7B",
+    "category": "lightweight",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "files": [
+      {
+        "filename": "SmolLM2-1.7B-Instruct-Q4_K_M.gguf",
+        "size_gb": 1.1,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "SmolLM2-1.7B-Instruct-Q5_K_M.gguf",
+        "size_gb": 1.3,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "SmolLM2-1.7B-Instruct-Q8_0.gguf",
+        "size_gb": 1.8,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 5
+  },
+  {
+    "id": "qwen-2.5-1.5b",
+    "name": "Qwen 2.5 1.5B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-1.5B-Instruct-GGUF",
+    "description": "Tiny but capable model from Alibaba. Good multilingual support and tool use for a model of this size. Great for quick experiments.",
+    "parameters": "1.5B",
+    "category": "lightweight",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+        "size_gb": 1,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-1.5B-Instruct-Q5_K_M.gguf",
+        "size_gb": 1.2,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2.5-1.5B-Instruct-Q8_0.gguf",
+        "size_gb": 1.7,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 5
+  },
+  {
+    "id": "aya-expanse-8b",
+    "name": "Aya Expanse 8B",
+    "author": "Cohere",
+    "repo": "bartowski/aya-expanse-8b-GGUF",
+    "description": "Cohere's advanced multilingual model supporting 23 languages. Improved over Aya 23 with better reasoning and cultural understanding.",
+    "parameters": "8B",
+    "category": "multilingual",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/CohereForAI/aya-expanse-8b",
+    "files": [
+      {
+        "filename": "aya-expanse-8b-Q4_K_M.gguf",
+        "size_gb": 4.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "aya-expanse-8b-Q5_K_M.gguf",
+        "size_gb": 5.7,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "aya-expanse-8b-Q8_0.gguf",
+        "size_gb": 8.5,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "aya-expanse-32b",
+    "name": "Aya Expanse 32B",
+    "author": "Cohere",
+    "repo": "bartowski/aya-expanse-32b-GGUF",
+    "description": "Cohere's largest multilingual model. State-of-the-art performance across 23 languages for translation, summarization, and conversation.",
+    "parameters": "32B",
+    "category": "multilingual",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/CohereForAI/aya-expanse-32b",
+    "files": [
+      {
+        "filename": "aya-expanse-32b-Q4_K_M.gguf",
+        "size_gb": 19.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "aya-expanse-32b-Q5_K_M.gguf",
+        "size_gb": 23.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "aya-expanse-32b-Q8_0.gguf",
+        "size_gb": 34.8,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 8
+  },
+  {
+    "id": "qwen2-vl-7b",
+    "name": "Qwen2 VL 7B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2-VL-7B-Instruct-GGUF",
+    "description": "Vision-language model from Alibaba. Understands images, charts, and documents. Strong at visual Q&A and image description.",
+    "parameters": "7B",
+    "category": "vision",
+    "capabilities": [
+      "vision"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2-VL-7B-Instruct-Q4_K_M.gguf",
+        "size_gb": 4.7,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2-VL-7B-Instruct-Q5_K_M.gguf",
+        "size_gb": 5.4,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2-VL-7B-Instruct-Q8_0.gguf",
+        "size_gb": 8.1,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "qwen2-vl-2b",
+    "name": "Qwen2 VL 2B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2-VL-2B-Instruct-GGUF",
+    "description": "Lightweight vision-language model. Compact enough for low-end hardware while still capable of understanding images and text.",
+    "parameters": "2B",
+    "category": "vision",
+    "capabilities": [
+      "vision"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2-VL-2B-Instruct-Q4_K_M.gguf",
+        "size_gb": 1.4,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2-VL-2B-Instruct-Q5_K_M.gguf",
+        "size_gb": 1.7,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2-VL-2B-Instruct-Q8_0.gguf",
+        "size_gb": 2.5,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 5
+  },
+  {
+    "id": "sd-3.5-medium",
+    "name": "Stable Diffusion 3.5 Medium",
+    "author": "Stability AI",
+    "repo": "city96/stable-diffusion-3.5-medium-gguf",
+    "description": "Lighter version of SD 3.5 with MMDiT architecture. Good balance of quality and speed for image generation at 1024x1024.",
+    "parameters": "2.8B",
+    "category": "image_generation",
+    "capabilities": [
+      "image_generation"
+    ],
+    "recommended_quant": "Q5_0",
+    "homepage": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf",
+    "files": [
+      {
+        "filename": "sd3.5_medium-Q5_0.gguf",
+        "size_gb": 2.1,
+        "quant": "Q5_0"
+      },
+      {
+        "filename": "sd3.5_medium-Q8_0.gguf",
+        "size_gb": 3.2,
+        "quant": "Q8_0"
+      }
+    ],
+    "components": [
+      {
+        "type": "clip_l",
+        "repo": "Comfy-Org/stable-diffusion-3.5-fp8",
+        "filename": "text_encoders/clip_l.safetensors",
+        "size_gb": 0.25
+      },
+      {
+        "type": "clip_g",
+        "repo": "Comfy-Org/stable-diffusion-3.5-fp8",
+        "filename": "text_encoders/clip_g.safetensors",
+        "size_gb": 1.4
+      },
+      {
+        "type": "t5xxl",
+        "repo": "city96/t5-v1_1-xxl-encoder-gguf",
+        "filename": "t5-v1_1-xxl-encoder-Q8_0.gguf",
+        "size_gb": 5.1
+      }
+    ],
+    "defaults": {
+      "cfg_scale": 3.5,
+      "steps": 28,
+      "sampling_method": "euler",
+      "width": 1024,
+      "height": 1024
+    },
+    "server_flags": [
+      "--clip-on-cpu"
+    ],
+    "performance_score": 7
+  },
+  {
+    "id": "llama-3.2-1b",
+    "name": "Llama 3.2 1B Instruct",
+    "author": "Meta",
+    "repo": "bartowski/Llama-3.2-1B-Instruct-GGUF",
+    "description": "Meta's smallest Llama model. Ultra-lightweight for edge devices and quick responses. Good for simple tasks and testing.",
+    "parameters": "1B",
+    "category": "lightweight",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+    "files": [
+      {
+        "filename": "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+        "size_gb": 0.8,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Llama-3.2-1B-Instruct-Q5_K_M.gguf",
+        "size_gb": 0.9,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Llama-3.2-1B-Instruct-Q8_0.gguf",
+        "size_gb": 1.3,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 4
+  },
+  {
+    "id": "qwen-2.5-32b",
+    "name": "Qwen 2.5 32B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-32B-Instruct-GGUF",
+    "description": "Alibaba's large general-purpose model. Exceptional multilingual, coding, and reasoning capabilities. Requires 16+ GB RAM.",
+    "parameters": "32B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-32B-Instruct-Q4_K_M.gguf",
+        "size_gb": 19.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-32B-Instruct-Q5_K_M.gguf",
+        "size_gb": 23.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2.5-32B-Instruct-Q8_0.gguf",
+        "size_gb": 34.8,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 9
+  },
+  {
+    "id": "gemma-3-27b",
+    "name": "Gemma 3 27B Instruct",
+    "author": "Google",
+    "repo": "bartowski/google_gemma-3-27b-it-GGUF",
+    "description": "Google's largest Gemma 3 model. Top-tier performance with vision, 128K context, and 140+ language support. Requires 16+ GB RAM.",
+    "parameters": "27B",
+    "category": "chat",
+    "capabilities": [
+      "tool_use",
+      "vision"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/google/gemma-3-27b-it",
+    "files": [
+      {
+        "filename": "google_gemma-3-27b-it-Q4_K_M.gguf",
+        "size_gb": 16.3,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "google_gemma-3-27b-it-Q5_K_M.gguf",
+        "size_gb": 19,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "google_gemma-3-27b-it-Q8_0.gguf",
+        "size_gb": 28.7,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 9
+  },
+  {
+    "id": "qwen-2.5-coder-32b",
+    "name": "Qwen 2.5 Coder 32B Instruct",
+    "author": "Alibaba",
+    "repo": "bartowski/Qwen2.5-Coder-32B-Instruct-GGUF",
+    "description": "Alibaba's largest coding model. Frontier-level code generation rivaling GPT-4 on coding benchmarks. Requires 16+ GB RAM.",
+    "parameters": "32B",
+    "category": "code",
+    "capabilities": [
+      "tool_use"
+    ],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+    "files": [
+      {
+        "filename": "Qwen2.5-Coder-32B-Instruct-Q4_K_M.gguf",
+        "size_gb": 19.9,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Qwen2.5-Coder-32B-Instruct-Q5_K_M.gguf",
+        "size_gb": 23.1,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Qwen2.5-Coder-32B-Instruct-Q8_0.gguf",
+        "size_gb": 34.8,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 10
+  },
+  {
+    "id": "yi-1.5-9b",
+    "name": "Yi 1.5 9B Chat",
+    "author": "01.AI",
+    "repo": "bartowski/Yi-1.5-9B-Chat-GGUF",
+    "description": "Bilingual English/Chinese model from 01.AI. Strong at reasoning and conversation with excellent Chinese language support.",
+    "parameters": "9B",
+    "category": "multilingual",
+    "capabilities": [],
+    "recommended_quant": "Q4_K_M",
+    "homepage": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat",
+    "files": [
+      {
+        "filename": "Yi-1.5-9B-Chat-Q4_K_M.gguf",
+        "size_gb": 5.5,
+        "quant": "Q4_K_M"
+      },
+      {
+        "filename": "Yi-1.5-9B-Chat-Q5_K_M.gguf",
+        "size_gb": 6.4,
+        "quant": "Q5_K_M"
+      },
+      {
+        "filename": "Yi-1.5-9B-Chat-Q8_0.gguf",
+        "size_gb": 9.8,
+        "quant": "Q8_0"
+      }
+    ],
+    "performance_score": 6
+  }
+]

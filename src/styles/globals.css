@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #fafafa;
+  --color-muted: #171717;
+  --color-muted-foreground: #a1a1aa;
+  --color-border: #27272a;
+  --color-primary: #6366f1;
+  --color-primary-foreground: #ffffff;
+  --color-accent: #1e1b4b;
+  --color-accent-foreground: #c7d2fe;
+  --color-destructive: #ef4444;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  [data-theme="light"] {
+    --color-background: #ffffff;
+    --color-foreground: #0a0a0a;
+    --color-muted: #f5f5f5;
+    --color-muted-foreground: #71717a;
+    --color-border: #e4e4e7;
+    --color-primary: #6366f1;
+    --color-primary-foreground: #ffffff;
+    --color-accent: #eef2ff;
+    --color-accent-foreground: #3730a3;
+    --color-destructive: #ef4444;
+    --color-success: #22c55e;
+    --color-warning: #f59e0b;
+  }
+
+  /* ── Aero Glass Dark ─────────────────────────────────── */
+  [data-theme="aero"] {
+    --color-background: rgba(10, 15, 30, 0.78);
+    --color-foreground: #f0f4ff;
+    --color-muted: rgba(20, 40, 80, 0.55);
+    --color-muted-foreground: #8ab4f8;
+    --color-border: rgba(100, 160, 255, 0.3);
+    --color-primary: #4a90d9;
+    --color-primary-foreground: #ffffff;
+    --color-accent: rgba(30, 60, 120, 0.6);
+    --color-accent-foreground: #b8d4f0;
+    --color-destructive: #ef4444;
+    --color-success: #22c55e;
+    --color-warning: #f59e0b;
+
+    --glass-blur: 20px;
+    --glass-border: rgba(100, 160, 255, 0.25);
+    --glass-highlight: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0.03) 50%,
+      transparent 50%
+    );
+  }
+
+  /* ── Aero Glass Light ────────────────────────────────── */
+  [data-theme="aero-light"] {
+    --color-background: rgba(220, 235, 255, 0.82);
+    --color-foreground: #0a1628;
+    --color-muted: rgba(180, 210, 245, 0.5);
+    --color-muted-foreground: #3a5a8a;
+    --color-border: rgba(80, 130, 200, 0.35);
+    --color-primary: #2970c0;
+    --color-primary-foreground: #ffffff;
+    --color-accent: rgba(200, 225, 255, 0.65);
+    --color-accent-foreground: #1a3a6a;
+    --color-destructive: #dc2626;
+    --color-success: #16a34a;
+    --color-warning: #d97706;
+
+    --glass-blur: 20px;
+    --glass-border: rgba(80, 130, 200, 0.3);
+    --glass-highlight: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.35) 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      transparent 50%
+    );
+  }
+
+  /* Transparent body for aero modes */
+  [data-theme="aero"] body,
+  [data-theme="aero-light"] body {
+    background-color: transparent;
+  }
+
+  /* Glass panel — translucent blur + glow border */
+  .glass-panel {
+    backdrop-filter: blur(var(--glass-blur, 0px));
+    -webkit-backdrop-filter: blur(var(--glass-blur, 0px));
+    border-right: 1px solid var(--glass-border, var(--color-border));
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.25),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* Glossy highlight overlay (Aero top-half reflection) */
+  .glass-glossy {
+    position: relative;
+  }
+  .glass-glossy::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: var(--glass-highlight, none);
+    pointer-events: none;
+  }
+
+  #root {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-muted-foreground);
+  }
+}

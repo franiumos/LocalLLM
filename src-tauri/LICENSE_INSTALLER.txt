@@ -1,0 +1,62 @@
+LOCALLLM - TERMS OF USE & END-USER LICENSE AGREEMENT
+Version 0.1.0 | Franium Softwares | March 2026
+
+By installing LocalLLM ("the Software"), you agree to the following terms.
+If you do not agree, click "Cancel" to abort the installation.
+
+1. LICENSE
+The Software is provided under the MIT License. You are free to use, copy,
+modify, distribute, and sublicense it, subject to the LICENSE file.
+
+2. NO WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+3. LIMITATION OF LIABILITY
+IN NO EVENT SHALL FRANIUM SOFTWARES BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES (INCLUDING LOSS OF
+DATA, LOSS OF PROFITS, BUSINESS INTERRUPTION, OR HARDWARE DAMAGE) ARISING
+FROM THE USE OR INABILITY TO USE THE SOFTWARE.
+
+Running AI models locally consumes significant system resources (CPU, GPU,
+RAM, disk). You do so at your own risk.
+
+4. THIRD-PARTY MODELS & CONTENT
+The Software provides access to third-party AI models from external sources.
+These models are governed by their own licenses. You are solely responsible
+for reviewing and complying with each model's license. The publisher does not
+host, train, or control these models and is not responsible for any content
+they generate. AI outputs may be inaccurate, biased, or inappropriate.
+
+5. THIRD-PARTY BINARIES
+The Software bundles open-source sidecar binaries (llama.cpp,
+stable-diffusion.cpp) under their respective MIT licenses.
+
+6. CODE MODE DISCLAIMER
+"Code Mode" can read/write files and execute shell commands on your machine
+at your direction. You are solely responsible for reviewing any actions taken
+through this feature.
+
+7. PRIVACY
+The Software runs entirely locally. It does not collect, transmit, or store
+any personal data, telemetry, or usage analytics. Network requests are only
+made to download AI models and binaries (user-initiated).
+
+8. NO SUPPORT OBLIGATION
+The publisher is under no obligation to provide support, maintenance, updates,
+or bug fixes.
+
+9. INDEMNIFICATION
+You agree to indemnify and hold harmless Franium Softwares from any claims,
+damages, or expenses arising from your use of the Software.
+
+10. GOVERNING LAW
+These terms are governed by the laws of Belgium. Disputes shall be subject to
+the exclusive jurisdiction of the courts of Belgium.
+
+11. CHANGES
+The publisher may update these terms at any time. Continued use after changes
+constitutes acceptance.
+
+Full terms: https://github.com/AugustinMORVAL/LocalLLM/blob/main/TERMS.md

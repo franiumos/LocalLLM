@@ -1,0 +1,17 @@
+{
+  "bundle": {
+    "targets": ["deb", "appimage"],
+    "resources": {
+      "binaries/*.so*": "./",
+      "binaries/llama-server-bin": "./",
+      "binaries/sd-server-bin": "./"
+    }
+  },
+  "app": {
+    "windows": [
+      {
+        "decorations": true
+      }
+    ]
+  }
+}
