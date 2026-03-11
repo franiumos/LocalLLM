@@ -51,7 +51,7 @@
     ],
     "resources": {},
     "windows": {
-      "webviewInstallMode": { "type": "embedBootstrapper" },
+      "webviewInstallMode": { "type": "downloadBootstrapper" },
       "nsis": {
         "displayLanguageSelector": false,
         "installMode": "currentUser",
